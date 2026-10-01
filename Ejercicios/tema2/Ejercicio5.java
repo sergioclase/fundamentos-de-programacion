@@ -6,7 +6,7 @@ public class Ejercicio5 {
         double peseta = 166.386;
         String nombre = " pesetas"; 
 
-        System.out.println( euro + " euro son "  + peseta%euro + nombre);
+        System.out.println( euro + " euro son "  + euro/peseta + nombre);
  
     }
     

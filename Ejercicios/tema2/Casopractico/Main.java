@@ -1,3 +1,5 @@
+package Ejercicios.tema2.Casopractico;
+
 public class Main {
 
     public static void main(String[] args) {
