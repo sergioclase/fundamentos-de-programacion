@@ -19,6 +19,6 @@ public class ejemplo2 {
 
         System.out.println("Hola: " + nombre + " tiene " + edad + " años");
         System.out.println("Tu inicial es : " + inicial);
-         
+        sc.close(); 
     }
 }

@@ -10,7 +10,7 @@ public class ejemplo1 {
     System.out.print("Dime tu nombre: ");
     String nombre = sc.nextLine() ; 
     System.out.println("hola " + nombre );
-        
+        sc.close();
       }
     }
 
