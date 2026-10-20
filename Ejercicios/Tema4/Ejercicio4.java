@@ -8,6 +8,13 @@ public class Ejercicio4 {
         System.out.println("Dime una letra ");
         char letra = sc.nextLine().charAt(0); 
         
-    }
+       int codigo = letra;
+       char letraSiguiente = (char) (letra + 1);
+
+     System.out.println("Código: " + codigo);
+     System.out.println("Letra siguiente: " + letraSiguiente);
+
+sc.close();
+     }
     
 }
