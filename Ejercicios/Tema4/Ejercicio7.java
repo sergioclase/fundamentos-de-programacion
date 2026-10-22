@@ -7,7 +7,7 @@ public class Ejercicio7 {
        Scanner sc = new Scanner(System.in);
         System.out.println("Dime tu edad ");
         int edad = sc.nextInt(); 
-        int edad1 = 18;
+        
         boolean teoricoAprobado = true;
 
         boolean puedeSacarseElCarnet = edad >= 18 && teoricoAprobado;
