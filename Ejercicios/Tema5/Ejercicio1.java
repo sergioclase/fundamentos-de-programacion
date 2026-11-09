@@ -12,7 +12,8 @@ public class Ejercicio1 {
 
         if (numero >= 0) {
             System.out.println("Positivo");
-        } else {
+        } 
+        else {
             System.out.println("Negativo");
         }
         sc.close();
