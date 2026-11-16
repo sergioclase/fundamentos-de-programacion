@@ -1,35 +1,28 @@
 package Ejercicios.Tema6;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
 
-        System.out.print("Importe: ");
-        double importe = sc.nextDouble();
 
         System.out.print("¿Eres socio? (s/n): ");
-        String socio = sc.next();
+        char socio = sc.next().charAt(0);
 
         System.out.print("¿Pagas en efectivo? (s/n): ");
-        String efectivo = sc.next();
+        char efectivo = sc.next().charAt(0);
 
         int descuento = 0;
 
-        if (socio.equals("s")) {
-            descuento += 5;
+        if (socio == 's') {
+            descuento = descuento + 5;
         }
-        if (efectivo.equals("s")) {
-            descuento += 2;
+        if (efectivo == 's') {
+            descuento = descuento + 2;
         }
 
         System.out.println("Descuento total: " + descuento + "%");
-
-        double total = importe - importe * descuento / 100;
-        System.out.println("Importe final: " + total);
         sc.close();
     }
 }
